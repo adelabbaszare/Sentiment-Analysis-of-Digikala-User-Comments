@@ -7,7 +7,7 @@ This project performs a complete Sentiment Analysis on the user comments from th
 The file and folder structure is organized as follows:
 
 ```
-SentimentProject/
+Digikala-WebScraper/
 ├── data/
 │   ├── digikala_comments.csv
 │   └── ccleaned_digikala_comments.csv
@@ -20,8 +20,6 @@ SentimentProject/
 │   ├── positive_wordcloud.png
 │   ├── negative_frequent_words.png
 │   └── ... (Other images)
-├── reports/
-│   └── final_report.pdf
 ├── README.md
 └── requirements.txt
 ```
@@ -43,7 +41,7 @@ Follow the steps below to run this project.
 First, clone the project from GitHub (or any other source):
 ```bash
 git clone <your-project-URL>
-cd SentimentProject
+cd Digikala-WebScraper
 ```
 
 ### 2. Create a Virtual Environment
@@ -118,13 +116,13 @@ This command adds a new kernel with the display name `Python (Sentiment Env)` to
     This process may take a few minutes.
 
 ### Step 2: Run the Analysis Notebook
-1.  In the project's root directory (`SentimentProject/`), launch Jupyter Lab or Jupyter Notebook:
+1.  In the project's root directory (`Digikala-WebScraper/`), launch Jupyter Lab or Jupyter Notebook:
     ```bash
     jupyter lab
     # or
     # jupyter notebook
     ```
-2.  In the Jupyter environment, navigate to the `notebooks` folder and open the `Sentiment Project Notebook.ipynb` file.
+2.  In the Jupyter environment, navigate to the `notebooks` folder and open the `Digikala-WebScraper Project Notebook.ipynb` file.
 3.  From the notebook's top menu, change the kernel to `Python (Sentiment Env)` (or whatever name you chose in step 5).
 4.  You can now run the notebook cells sequentially.
 
