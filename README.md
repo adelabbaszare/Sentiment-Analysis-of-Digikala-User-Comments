@@ -10,7 +10,7 @@ The file and folder structure is organized as follows:
 Digikala-WebScraper/
 ├── data/
 │   ├── digikala_comments.csv
-│   └── ccleaned_digikala_comments.csv
+│   └── cleaned_digikala_comments.csv
 ├── notebooks/
 │   ├── Sentiment Project Notebook.ipynb
 │   ├── Digikala Web Scraping.py
