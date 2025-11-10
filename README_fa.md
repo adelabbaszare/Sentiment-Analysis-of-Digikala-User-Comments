@@ -22,8 +22,6 @@ SentimentProject/
 │   ├── positive_wordcloud.png
 │   ├── negative_frequent_words.png
 │   └── ... (سایر تصاویر)
-├── reports/
-│   └── final_report.pdf
 ├── README.md
 └── requirements.txt
 ```
@@ -44,8 +42,8 @@ SentimentProject/
 ### ۱. کلون کردن مخزن (Clone Repository)
 ابتدا پروژه را از گیت‌هاب (یا هر منبع دیگری) کلون کنید:
 ```bash
-git clone <URL-پروژه-شما>
-cd SentimentProject
+git clone https://github.com/adelabbaszare/Digikala-WebScraper.git
+cd Digikala-WebScraper
 ```
 
 ### ۲. ایجاد محیط مجازی (Virtual Environment)
@@ -127,13 +125,13 @@ python-bidi==0.6.6
    این فرآیند ممکن است چند دقیقه طول بکشد.
 
 ### مرحله دوم: اجرای نوت‌بوک تحلیل
-۱. در ریشه اصلی پروژه (`SentimentProject/`)، ژوپیتر لب یا ژوپیتر نوت‌بوک را اجرا کنید:
+۱. در ریشه اصلی پروژه (`Digikala-WebScraper/`)، ژوپیتر لب یا ژوپیتر نوت‌بوک را اجرا کنید:
    ```bash
    jupyter lab
    # یا
    # jupyter notebook
    ```
-۲. در محیط ژوپیتر، به پوشه `notebooks` بروید و فایل `Sentiment Project Notebook.ipynb` را باز کنید.
+۲. در محیط ژوپیتر، به پوشه `notebooks` بروید و فایل `Digikala-WebScraper Project Notebook.ipynb` را باز کنید.
 ۳. از منوی بالای نوت‌بوک، کرنل را به `Python (Sentiment Env)` (یا هر نامی که در مرحله ۵ انتخاب کردید) تغییر دهید.
 ۴. اکنون می‌توانید سلول‌های نوت‌بوک را به ترتیب اجرا کنید.
 
