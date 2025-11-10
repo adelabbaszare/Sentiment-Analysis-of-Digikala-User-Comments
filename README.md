@@ -40,7 +40,7 @@ Follow the steps below to run this project.
 ### 1. Clone Repository
 First, clone the project from GitHub (or any other source):
 ```bash
-git clone <your-project-URL>
+git clone https://github.com/adelabbaszare/Digikala-WebScraper.git
 cd Digikala-WebScraper
 ```
 
@@ -74,19 +74,26 @@ pip install -r requirements.txt
   <summary>requirements.txt content</summary>
   
   ```
-  pandas
-  numpy
-  hazm
-  arabic_reshaper
-  bidi
-  parsivar
-  matplotlib
-  seaborn
-  wordcloud
-  scikit-learn
-  selenium
-  beautifulsoup4
-  ipykernel
+# Web Scraping
+selenium==4.35.0
+beautifulsoup4==4.13.4
+
+# Data Manipulation and Numerical Operations
+pandas==2.3.2
+numpy==1.25.0
+
+# Machine Learning and Feature Extraction
+scikit-learn==1.7.1
+
+# Data Visualization
+matplotlib==3.10.5
+seaborn==0.13.2
+wordcloud==1.9.4
+
+# Persian Language Processing (NLP)
+hazm==0.10.0
+arabic-reshaper==3.0.0
+python-bidi==0.6.6
   ```
 </details>
 
