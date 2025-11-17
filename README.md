@@ -1,7 +1,7 @@
 # Sentiment Analysis of Digikala User Comments
 ![Digikala](https://about.digikala.com/ogImage.jpg)
-![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/AI-News-Telegram-Bot)
-![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
+![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments)
+![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments)
 [![Web Scraping | Beautiful Soup ](https://img.shields.io/badge/Web%20Scraping%20%26%20Sentiment-Python-blue?logo=python&logoColor=white)](https://github.com/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments)
 
 This project performs a complete Sentiment Analysis on the user comments from the Digikala website. The project workflow includes automatic data collection via web scraping, cleaning and preprocessing of Persian text, Exploratory Data Analysis (EDA) to discover patterns, and finally, training and evaluating several machine learning models to classify comments into positive and negative categories.
